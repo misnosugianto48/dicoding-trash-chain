@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trashchain - Landing Page</title>
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="styles/app.css" />
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar-container">
+      <div class="logo">
+        <img src="assets/logo.webp" alt="trash-logo" />
+      </div>
+
+      <nav class="navbar-list">
+        <ul>
+          <li><a href="#dashboard">Beranda</a></li>
+          <li><a href="#what">Bank Sampah</a></li>
+          <li><a href="#type">Jenis Sampah</a></li>
+          <li><a href="#how-it-works">Cara Kerja</a></li>
+          <li><a href="#benefit">Manfaat</a></li>
+          <li>
+            <a
+              href="https://www.dicoding.com/users/misno48sugianto/academies"
+              target="_blank"
+              >Profil Penulis</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTENT -->
+    <main>
+      <div class="jumbotron" id="dashboard">
+        <div class="content">
+          <h1>Ubah Sampah Menjadi <span>Nilai</span></h1>
+
+          <p>
+            TrashChain adalah platform bank sampah digital yang membantu
+            masyarakat mengelola sampah secara lebih transparan, terukur, dan
+            bernilai ekonomi.
+          </p>
+
+          <a href="#what" class="btn-primary"> Pelajari Lebih Lanjut </a>
+        </div>
+
+        <div class="hero-image">
+          <img src="assets/hero-image.webp" alt="hero-image" />
+        </div>
+      </div>
+
+      <section class="stats">
+        <div class="stat-card">
+          <i class="fa-solid fa-recycle"></i>
+          <h3>1.250 Kg</h3>
+          <p>Plastik Terkumpul</p>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-file"></i>
+          <h3>870 Kg</h3>
+          <p>Kertas Didaur Ulang</p>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-industry"></i>
+          <h3>420 Kg</h3>
+          <p>Logam Diproses</p>
+        </div>
+
+        <div class="stat-card">
+          <i class="fa-solid fa-users"></i>
+          <h3>350+</h3>
+          <p>Nasabah Aktif</p>
+        </div>
+      </section>
+
+      <div class="content-wrapper">
+        <div class="main-content">
+          <article id="what" class="article-section">
+            <h2>Mengenal Bank Sampah</h2>
+
+            <section>
+              <h3>Apa Itu Bank Sampah?</h3>
+              <p>
+                Bank sampah adalah sistem pengelolaan sampah yang mendorong
+                masyarakat untuk memilah dan mengumpulkan sampah yang masih
+                memiliki nilai ekonomi. Sampah yang telah dipilah kemudian
+                disetorkan ke bank sampah untuk ditimbang dan dicatat sebagai
+                tabungan.
+              </p>
+              <p>
+                Melalui konsep ini, sampah tidak lagi dianggap sebagai limbah
+                yang tidak berguna, melainkan sebagai sumber daya yang dapat
+                didaur ulang dan dimanfaatkan kembali.
+              </p>
+            </section>
+            <section>
+              <h3>Mengapa Bank Sampah Penting?</h3>
+              <p>
+                Setiap hari rumah tangga menghasilkan berbagai jenis sampah.
+                Tanpa pengelolaan yang baik, sampah dapat menumpuk dan mencemari
+                lingkungan. Bank sampah membantu mengurangi jumlah sampah yang
+                berakhir di tempat pembuangan akhir sekaligus memberikan manfaat
+                ekonomi kepada masyarakat.
+              </p>
+            </section>
+          </article>
+
+          <article id="type" class="article-section">
+            <h2>Jenis Sampah yang Dapat Ditabung</h2>
+            <section class="waste-types">
+              <div class="waste-card">
+                <div class="icon">
+                  <i class="fa-solid fa-bottle-water"></i>
+                </div>
+                <h3>Sampah Plastik</h3>
+                <p>
+                  Botol minuman, gelas plastik, kemasan deterjen, dan berbagai
+                  jenis plastik lainnya dapat dikumpulkan untuk didaur ulang.
+                </p>
+              </div>
+
+              <div class="waste-card">
+                <div class="icon">
+                  <i class="fa-solid fa-newspaper"></i>
+                </div>
+                <h3>Sampah Kertas</h3>
+                <p>
+                  Koran bekas, kardus, buku yang tidak digunakan, dan kertas
+                  kantor memiliki nilai jual yang cukup baik.
+                </p>
+              </div>
+
+              <div class="waste-card">
+                <div class="icon">
+                  <i class="fa-solid fa-industry"></i>
+                </div>
+                <h3>Sampah Logam</h3>
+                <p>
+                  Kaleng minuman, besi bekas, aluminium, dan logam lainnya
+                  merupakan salah satu jenis sampah dengan nilai ekonomi yang
+                  tinggi.
+                </p>
+              </div>
+
+              <div class="waste-card">
+                <div class="icon">
+                  <i class="fa-solid fa-wine-bottle"></i>
+                </div>
+                <h3>Sampah Kaca</h3>
+                <p>
+                  Botol kaca dan pecahan kaca tertentu dapat dikumpulkan untuk
+                  diproses kembali menjadi produk baru.
+                </p>
+              </div>
+
+              <div class="waste-card">
+                <div class="icon">
+                  <i class="fa-solid fa-oil-can"></i>
+                </div>
+                <h3>Minyak Jelantah</h3>
+                <p>
+                  Minyak goreng bekas yang sudah tidak digunakan dapat
+                  disetorkan untuk diolah menjadi bahan baku industri tertentu.
+                </p>
+              </div>
+            </section>
+          </article>
+
+          <article id="how-it-works" class="article-section">
+            <h2>Cara Kerja TrashChain</h2>
+            <ul class="timeline">
+              <li>
+                <h3>1. Pemilahan Sampah</h3>
+                <p>
+                  Masyarakat memilah sampah berdasarkan jenisnya seperti
+                  plastik, kertas, logam, dan kaca.
+                </p>
+              </li>
+              <li>
+                <h3>2. Penyetoran</h3>
+                <p>
+                  Sampah yang telah dipilah disetorkan ke bank sampah terdekat.
+                </p>
+              </li>
+              <li>
+                <h3>3. Penimbangan</h3>
+                <p>
+                  Petugas melakukan penimbangan dan mencatat berat masing-masing
+                  jenis sampah.
+                </p>
+              </li>
+              <li>
+                <h3>4. Pencatatan Saldo</h3>
+                <p>
+                  Nilai sampah dikonversi menjadi saldo tabungan yang dimiliki
+                  oleh nasabah
+                </p>
+              </li>
+              <li>
+                <h3>5. Penukaran Manfaat</h3>
+                <p>
+                  Saldo dapat ditukarkan menjadi uang tunai, kebutuhan pokok,
+                  atau bentuk penghargaan lainnya sesuai kebijakan bank sampah.
+                </p>
+              </li>
+            </ul>
+          </article>
+
+          <article id="benefit" class="article-section">
+            <h2>Manfaat Bank Sampah Digital</h2>
+
+            <div class="benefits">
+              <section class="benefit-card">
+                <h3>Lingkungan Lebih Bersih</h3>
+                <p>
+                  Sampah yang dikelola dengan baik akan mengurangi pencemaran
+                  lingkungan dan membantu menjaga kebersihan wilayah.
+                </p>
+              </section>
+              <section class="benefit-card">
+                <h3>Edukasi Masyarakat</h3>
+                <p>
+                  Masyarakat menjadi lebih sadar mengenai pentingnya memilah
+                  sampah sejak dari rumah.
+                </p>
+              </section>
+              <section class="benefit-card">
+                <h3>Bernilai Ekonomi</h3>
+                <p>
+                  Sampah yang sebelumnya dibuang dapat menghasilkan tambahan
+                  pendapatan bagi masyarakat.
+                </p>
+              </section>
+              <section class="benefit-card">
+                <h3>Data Lebih Transparan</h3>
+                <p>
+                  Pencatatan digital membantu proses pengelolaan data menjadi
+                  lebih cepat, akurat, dan mudah dipantau.
+                </p>
+              </section>
+            </div>
+          </article>
+        </div>
+
+        <aside class="profile">
+          <h3>Tentang Penulis</h3>
+
+          <img src="assets/profile.webp" alt="Misno Sugianto" />
+
+          <h4>Misno Sugianto</h4>
+
+          <p>
+            Freshgraduate yang memiliki ketertarikan di ranah blockchain.
+          </p>
+
+          <div class="skills">
+            <span>PHP</span>
+            <span>Node.js</span>
+            <span>SQL</span>
+          </div>
+
+          <h4>Motto</h4>
+
+          <p>
+            Teknologi yang baik bukan hanya menyelesaikan masalah, tetapi juga
+            memberikan dampak positif bagi masyarakat.
+          </p>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Belajar Dasar Pemrograman Web &#169; 2026, Submission Dicoding Academy
+      </p>
+    </footer>
+  </body>
+</html>
